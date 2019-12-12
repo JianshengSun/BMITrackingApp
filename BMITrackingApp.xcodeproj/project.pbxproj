@@ -13,6 +13,9 @@
 		C3145F5523A1B5AA00CB8736 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3145F5323A1B5AA00CB8736 /* Main.storyboard */; };
 		C3145F5723A1B5AB00CB8736 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3145F5623A1B5AB00CB8736 /* Assets.xcassets */; };
 		C3145F5A23A1B5AB00CB8736 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3145F5823A1B5AB00CB8736 /* LaunchScreen.storyboard */; };
+		C3553F5E23A1BA4400C5FC6D /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3553F5B23A1BA4400C5FC6D /* CoreDataStack.swift */; };
+		C3553F5F23A1BA4400C5FC6D /* BMIData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C3553F5C23A1BA4400C5FC6D /* BMIData.xcdatamodeld */; };
+		C3553F6223A1C38800C5FC6D /* CalculatorController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3553F6123A1C38800C5FC6D /* CalculatorController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		C3145F5623A1B5AB00CB8736 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C3145F5923A1B5AB00CB8736 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C3145F5B23A1B5AB00CB8736 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3553F5B23A1BA4400C5FC6D /* CoreDataStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		C3553F5D23A1BA4400C5FC6D /* TODO.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TODO.xcdatamodel; sourceTree = "<group>"; };
+		C3553F6123A1C38800C5FC6D /* CalculatorController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +62,9 @@
 		C3145F4C23A1B5AA00CB8736 /* BMITrackingApp */ = {
 			isa = PBXGroup;
 			children = (
+				C3553F6023A1BA6900C5FC6D /* CoreData */,
 				C3145F4D23A1B5AA00CB8736 /* AppDelegate.swift */,
+				C3553F6123A1C38800C5FC6D /* CalculatorController.swift */,
 				C3145F4F23A1B5AA00CB8736 /* SceneDelegate.swift */,
 				C3145F5123A1B5AA00CB8736 /* ViewController.swift */,
 				C3145F5323A1B5AA00CB8736 /* Main.storyboard */,
@@ -65,6 +73,15 @@
 				C3145F5B23A1B5AB00CB8736 /* Info.plist */,
 			);
 			path = BMITrackingApp;
+			sourceTree = "<group>";
+		};
+		C3553F6023A1BA6900C5FC6D /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				C3553F5B23A1BA4400C5FC6D /* CoreDataStack.swift */,
+				C3553F5C23A1BA4400C5FC6D /* BMIData.xcdatamodeld */,
+			);
+			path = CoreData;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,8 +156,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				C3145F5223A1B5AA00CB8736 /* ViewController.swift in Sources */,
+				C3553F6223A1C38800C5FC6D /* CalculatorController.swift in Sources */,
+				C3553F5F23A1BA4400C5FC6D /* BMIData.xcdatamodeld in Sources */,
 				C3145F4E23A1B5AA00CB8736 /* AppDelegate.swift in Sources */,
 				C3145F5023A1B5AA00CB8736 /* SceneDelegate.swift in Sources */,
+				C3553F5E23A1BA4400C5FC6D /* CoreDataStack.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -338,6 +358,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C3553F5C23A1BA4400C5FC6D /* BMIData.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C3553F5D23A1BA4400C5FC6D /* TODO.xcdatamodel */,
+			);
+			currentVersion = C3553F5D23A1BA4400C5FC6D /* TODO.xcdatamodel */;
+			path = BMIData.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = C3145F4223A1B5AA00CB8736 /* Project object */;
 }
