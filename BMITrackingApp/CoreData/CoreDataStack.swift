@@ -1,8 +1,8 @@
 //
 //  CoreDataStack.swift
-//  ToDoApp
+//  BMITrackingApp
 //
-//  Created by Jason on 2019-12-03.
+//  Created by Jason on 2019-12-11.
 //  Copyright © 2019 centennialcollege. All rights reserved.
 //
 
