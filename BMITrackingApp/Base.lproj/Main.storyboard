@@ -194,7 +194,7 @@
         <!--History-->
         <scene sceneID="8eN-qQ-KOS">
             <objects>
-                <tableViewController id="Vkx-cD-4St" customClass="TableViewController" customModule="BMITrackingApp" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="Vkx-cD-4St" customClass="BMITableViewController" customModule="BMITrackingApp" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="insetGrouped" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" sectionFooterHeight="18" id="UPi-Cd-GHD">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

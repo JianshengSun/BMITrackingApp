@@ -7,19 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		055696DA26C83F256983F8BD /* Pods_BMITrackingApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38499E0EE7F56C15BFC0AE72 /* Pods_BMITrackingApp.framework */; };
 		C3145F4E23A1B5AA00CB8736 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3145F4D23A1B5AA00CB8736 /* AppDelegate.swift */; };
 		C3145F5023A1B5AA00CB8736 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3145F4F23A1B5AA00CB8736 /* SceneDelegate.swift */; };
 		C3145F5223A1B5AA00CB8736 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3145F5123A1B5AA00CB8736 /* ViewController.swift */; };
 		C3145F5523A1B5AA00CB8736 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3145F5323A1B5AA00CB8736 /* Main.storyboard */; };
 		C3145F5723A1B5AB00CB8736 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3145F5623A1B5AB00CB8736 /* Assets.xcassets */; };
 		C3145F5A23A1B5AB00CB8736 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3145F5823A1B5AB00CB8736 /* LaunchScreen.storyboard */; };
-		C3553F5E23A1BA4400C5FC6D /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3553F5B23A1BA4400C5FC6D /* CoreDataStack.swift */; };
-		C3553F5F23A1BA4400C5FC6D /* BMIData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C3553F5C23A1BA4400C5FC6D /* BMIData.xcdatamodeld */; };
 		C3553F6223A1C38800C5FC6D /* CalculatorController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3553F6123A1C38800C5FC6D /* CalculatorController.swift */; };
-		C3553F6423A1DCB300C5FC6D /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3553F6323A1DCB300C5FC6D /* TableViewController.swift */; };
+		C3E29AF023A3216600C2A35E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C3E29AEF23A3216600C2A35E /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		07DA48462568562FC753BD29 /* Pods-BMITrackingApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BMITrackingApp.debug.xcconfig"; path = "Target Support Files/Pods-BMITrackingApp/Pods-BMITrackingApp.debug.xcconfig"; sourceTree = "<group>"; };
+		1C34CF6ADC0F9B211A924D40 /* Pods-BMITrackingApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BMITrackingApp.release.xcconfig"; path = "Target Support Files/Pods-BMITrackingApp/Pods-BMITrackingApp.release.xcconfig"; sourceTree = "<group>"; };
+		38499E0EE7F56C15BFC0AE72 /* Pods_BMITrackingApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BMITrackingApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3145F4A23A1B5AA00CB8736 /* BMITrackingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BMITrackingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3145F4D23A1B5AA00CB8736 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C3145F4F23A1B5AA00CB8736 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -28,10 +30,8 @@
 		C3145F5623A1B5AB00CB8736 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C3145F5923A1B5AB00CB8736 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C3145F5B23A1B5AB00CB8736 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C3553F5B23A1BA4400C5FC6D /* CoreDataStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
-		C3553F5D23A1BA4400C5FC6D /* TODO.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TODO.xcdatamodel; sourceTree = "<group>"; };
 		C3553F6123A1C38800C5FC6D /* CalculatorController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorController.swift; sourceTree = "<group>"; };
-		C3553F6323A1DCB300C5FC6D /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		C3E29AEF23A3216600C2A35E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,17 +39,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				055696DA26C83F256983F8BD /* Pods_BMITrackingApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AE9FCDBB2ACD1581ACC69E7B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				07DA48462568562FC753BD29 /* Pods-BMITrackingApp.debug.xcconfig */,
+				1C34CF6ADC0F9B211A924D40 /* Pods-BMITrackingApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		C3145F4123A1B5AA00CB8736 = {
 			isa = PBXGroup;
 			children = (
 				C3145F4C23A1B5AA00CB8736 /* BMITrackingApp */,
 				C3145F4B23A1B5AA00CB8736 /* Products */,
+				AE9FCDBB2ACD1581ACC69E7B /* Pods */,
+				FFD0752ACEE0870F5A49A923 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,11 +76,10 @@
 		C3145F4C23A1B5AA00CB8736 /* BMITrackingApp */ = {
 			isa = PBXGroup;
 			children = (
-				C3553F6023A1BA6900C5FC6D /* CoreData */,
 				C3145F4D23A1B5AA00CB8736 /* AppDelegate.swift */,
 				C3553F6123A1C38800C5FC6D /* CalculatorController.swift */,
-				C3553F6323A1DCB300C5FC6D /* TableViewController.swift */,
 				C3145F4F23A1B5AA00CB8736 /* SceneDelegate.swift */,
+				C3E29AEF23A3216600C2A35E /* GoogleService-Info.plist */,
 				C3145F5123A1B5AA00CB8736 /* ViewController.swift */,
 				C3145F5323A1B5AA00CB8736 /* Main.storyboard */,
 				C3145F5623A1B5AB00CB8736 /* Assets.xcassets */,
@@ -78,13 +89,12 @@
 			path = BMITrackingApp;
 			sourceTree = "<group>";
 		};
-		C3553F6023A1BA6900C5FC6D /* CoreData */ = {
+		FFD0752ACEE0870F5A49A923 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C3553F5B23A1BA4400C5FC6D /* CoreDataStack.swift */,
-				C3553F5C23A1BA4400C5FC6D /* BMIData.xcdatamodeld */,
+				38499E0EE7F56C15BFC0AE72 /* Pods_BMITrackingApp.framework */,
 			);
-			path = CoreData;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -94,9 +104,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C3145F5E23A1B5AB00CB8736 /* Build configuration list for PBXNativeTarget "BMITrackingApp" */;
 			buildPhases = (
+				308D5ECEF407537488B89F7B /* [CP] Check Pods Manifest.lock */,
 				C3145F4623A1B5AA00CB8736 /* Sources */,
 				C3145F4723A1B5AA00CB8736 /* Frameworks */,
 				C3145F4823A1B5AA00CB8736 /* Resources */,
+				470090C6C143ED9F950ABC90 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -146,6 +158,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C3145F5A23A1B5AB00CB8736 /* LaunchScreen.storyboard in Resources */,
+				C3E29AF023A3216600C2A35E /* GoogleService-Info.plist in Resources */,
 				C3145F5723A1B5AB00CB8736 /* Assets.xcassets in Resources */,
 				C3145F5523A1B5AA00CB8736 /* Main.storyboard in Resources */,
 			);
@@ -153,18 +166,57 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		308D5ECEF407537488B89F7B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BMITrackingApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		470090C6C143ED9F950ABC90 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BMITrackingApp/Pods-BMITrackingApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BMITrackingApp/Pods-BMITrackingApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BMITrackingApp/Pods-BMITrackingApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C3145F4623A1B5AA00CB8736 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				C3145F5223A1B5AA00CB8736 /* ViewController.swift in Sources */,
-				C3553F6423A1DCB300C5FC6D /* TableViewController.swift in Sources */,
 				C3553F6223A1C38800C5FC6D /* CalculatorController.swift in Sources */,
-				C3553F5F23A1BA4400C5FC6D /* BMIData.xcdatamodeld in Sources */,
 				C3145F4E23A1B5AA00CB8736 /* AppDelegate.swift in Sources */,
 				C3145F5023A1B5AA00CB8736 /* SceneDelegate.swift in Sources */,
-				C3553F5E23A1BA4400C5FC6D /* CoreDataStack.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,6 +358,7 @@
 		};
 		C3145F5F23A1B5AB00CB8736 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07DA48462568562FC753BD29 /* Pods-BMITrackingApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -324,6 +377,7 @@
 		};
 		C3145F6023A1B5AB00CB8736 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C34CF6ADC0F9B211A924D40 /* Pods-BMITrackingApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -362,19 +416,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		C3553F5C23A1BA4400C5FC6D /* BMIData.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				C3553F5D23A1BA4400C5FC6D /* TODO.xcdatamodel */,
-			);
-			currentVersion = C3553F5D23A1BA4400C5FC6D /* TODO.xcdatamodel */;
-			path = BMIData.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = C3145F4223A1B5AA00CB8736 /* Project object */;
 }

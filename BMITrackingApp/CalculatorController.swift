@@ -7,12 +7,13 @@
 //
 
 import UIKit
-import CoreData
+import Firebase
+
+
 
 class CalculatorController: UIViewController {
     
-    var managedContext: NSManagedObjectContext!
-    var data:BMIData?
+
     
     @IBOutlet weak var nameText: UITextField!
     @IBOutlet weak var ageText: UITextField!
@@ -30,6 +31,8 @@ class CalculatorController: UIViewController {
     var heightn: Double = 0
     var weightn: Double = 0
     var result: Double = 0
+    
+
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -111,6 +114,8 @@ class CalculatorController: UIViewController {
     
     
     @IBAction func addhistory(_ sender: UIButton) {
+        
+
         if nameText.text == ""{
             nameText.text = "Imput here!"
             return
@@ -119,15 +124,25 @@ class CalculatorController: UIViewController {
             nameText.text = "Imput here!"
             return
         }
-        let data = BMIData(context: managedContext)
-        data.age = Int16(Int(ageText.text!)!)
-        data.gender = Int16(genderC.selectedSegmentIndex)
-        data.name = nameText.text
-        data.height = heightn
-        data.weight = weightn
-        data.result = result
-        data.date = NSDate() as Date
+        var dataref: DatabaseReference!
+
+        dataref = Database.database().reference()
         
+
+        
+        dataref.child("data/\(NSDate())/\(nameText.text!)/name").setValue(nameText.text)
+        dataref.child("data/\(NSDate())/\(nameText.text!)/age").setValue(ageText.text)
+        dataref.child("data/\(NSDate())/\(nameText.text!)/gender").setValue(genderC.selectedSegmentIndex)
+        dataref.child("data/\(NSDate())/\(nameText.text!)/height").setValue(heightn)
+        dataref.child("data/\(NSDate())/\(nameText.text!)/weight").setValue(weightn)
+        dataref.child("data/\(NSDate())/\(nameText.text!)/result").setValue(result)
+        
+        
+
+        
+
+        
+
     }
     
 
