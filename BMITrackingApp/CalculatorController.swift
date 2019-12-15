@@ -7,13 +7,17 @@
 //
 
 import UIKit
-import Firebase
-
+import CoreData
 
 
 class CalculatorController: UIViewController {
     
-
+    var managedContext: NSManagedObjectContext!
+    //let data: DATA?
+    
+    var resultsController: NSFetchedResultsController<DATA>!
+    
+    var perviuosVC = TableViewController()
     
     @IBOutlet weak var nameText: UITextField!
     @IBOutlet weak var ageText: UITextField!
@@ -124,27 +128,25 @@ class CalculatorController: UIViewController {
             nameText.text = "Imput here!"
             return
         }
-        var dataref: DatabaseReference!
+        print("start")
 
-        dataref = Database.database().reference()
-        
+        if let context = (UIApplication.shared.delegate as? AppDelegate)?.persistentContainer.viewContext {
+            let data = DATA(entity: DATA.entity(), insertInto: context)
+            print("???")
+            data.name = nameText.text
+            data.age = ageText.text
+            data.gender = Int16(genderC.selectedSegmentIndex)
+            data.weight = weightn
+            data.height = heightn
+            data.date = NSDate() as Date
+            try? context.save()
+            print("save")
+        }
 
-        
-        dataref.child("data/\(NSDate())/\(nameText.text!)/name").setValue(nameText.text)
-        dataref.child("data/\(NSDate())/\(nameText.text!)/age").setValue(ageText.text)
-        dataref.child("data/\(NSDate())/\(nameText.text!)/gender").setValue(genderC.selectedSegmentIndex)
-        dataref.child("data/\(NSDate())/\(nameText.text!)/height").setValue(heightn)
-        dataref.child("data/\(NSDate())/\(nameText.text!)/weight").setValue(weightn)
-        dataref.child("data/\(NSDate())/\(nameText.text!)/result").setValue(result)
-        
-        
-
-        
-
-        
-
-    }
     
+        
+    }
+
 
 }
 

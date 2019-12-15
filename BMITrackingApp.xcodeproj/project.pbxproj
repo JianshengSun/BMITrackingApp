@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,6 +15,8 @@
 		C3145F5723A1B5AB00CB8736 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3145F5623A1B5AB00CB8736 /* Assets.xcassets */; };
 		C3145F5A23A1B5AB00CB8736 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3145F5823A1B5AB00CB8736 /* LaunchScreen.storyboard */; };
 		C3553F6223A1C38800C5FC6D /* CalculatorController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3553F6123A1C38800C5FC6D /* CalculatorController.swift */; };
+		C380C61D23A596E200498637 /* DataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = C380C61C23A596E200498637 /* DataClass.swift */; };
+		C3A77EEA23A4674200185E37 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3A77EE923A4674200185E37 /* TableViewController.swift */; };
 		C3E29AF023A3216600C2A35E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C3E29AEF23A3216600C2A35E /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
@@ -31,6 +33,8 @@
 		C3145F5923A1B5AB00CB8736 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C3145F5B23A1B5AB00CB8736 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C3553F6123A1C38800C5FC6D /* CalculatorController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorController.swift; sourceTree = "<group>"; };
+		C380C61C23A596E200498637 /* DataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataClass.swift; sourceTree = "<group>"; };
+		C3A77EE923A4674200185E37 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		C3E29AEF23A3216600C2A35E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -80,11 +84,13 @@
 				C3553F6123A1C38800C5FC6D /* CalculatorController.swift */,
 				C3145F4F23A1B5AA00CB8736 /* SceneDelegate.swift */,
 				C3E29AEF23A3216600C2A35E /* GoogleService-Info.plist */,
+				C3A77EE923A4674200185E37 /* TableViewController.swift */,
 				C3145F5123A1B5AA00CB8736 /* ViewController.swift */,
 				C3145F5323A1B5AA00CB8736 /* Main.storyboard */,
 				C3145F5623A1B5AB00CB8736 /* Assets.xcassets */,
 				C3145F5823A1B5AB00CB8736 /* LaunchScreen.storyboard */,
 				C3145F5B23A1B5AB00CB8736 /* Info.plist */,
+				C380C61C23A596E200498637 /* DataClass.swift */,
 			);
 			path = BMITrackingApp;
 			sourceTree = "<group>";
@@ -213,9 +219,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C380C61D23A596E200498637 /* DataClass.swift in Sources */,
 				C3145F5223A1B5AA00CB8736 /* ViewController.swift in Sources */,
 				C3553F6223A1C38800C5FC6D /* CalculatorController.swift in Sources */,
 				C3145F4E23A1B5AA00CB8736 /* AppDelegate.swift in Sources */,
+				C3A77EEA23A4674200185E37 /* TableViewController.swift in Sources */,
 				C3145F5023A1B5AA00CB8736 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
